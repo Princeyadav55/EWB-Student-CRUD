@@ -78,3 +78,34 @@ The application initializes the students table automatically.
 Use the interactive Swagger UI at `/docs` to test the endpoints.
 
 Use dummy student information for testing.
+## Live Deployment
+
+The Students Database CRUD API is deployed on Render.
+
+- **Live API:** https://ewb-student-crud-yoi0.onrender.com
+- **Interactive API Documentation:** https://ewb-student-crud-yoi0.onrender.com/docs
+
+## Deployment Platform
+
+- Hosting: Render
+- Runtime: Python 3
+- Framework: FastAPI
+- Database: SQLite
+
+## Testing
+
+The API can be tested using the interactive Swagger documentation at `/docs`.
+
+The following operations should be tested:
+
+- Create a student
+- List and filter students
+- Retrieve an individual student
+- Update student details
+- Delete a student
+
+Use dummy data when testing the deployed application.
+
+## Deployment Note
+
+The free Render instance may spin down after inactivity. SQLite data may not persist across redeployments or service changes without persistent storage.
